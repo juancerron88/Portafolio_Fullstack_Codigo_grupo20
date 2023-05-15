@@ -1,0 +1,17 @@
+
+.row {
+    margin-bottom: 20px;
+}
+.PieDePagina{
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    margin:0;
+    text-align: center;
+}
+.formulario ul{
+    list-style-type: none;
+}
+.foto1{
+    border-radius: 50%;
+}

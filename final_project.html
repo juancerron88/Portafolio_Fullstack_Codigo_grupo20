@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juan Diego Cerrón Salcedo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styled.css">
+</head>
+
+<!--Inicio Barra de Navegación-->
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">JDECS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about_me.html">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./assignments.html">Tareas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./final_project.html">Proyecto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact_me.html">Contáctame</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--Fin Barra de Navegación-->
+
+  <div class="container">
+   
+    <div class="row">
+        <div class="col-md-12 col-xl-10">
+            <h2>Mi Proyecto Final</h2>
+            <p>El Proyecto es "Gestión de Activos con Tecnologías 4.0", pretende alcanzar a diseñar un entorno para 03 niveles de usuario: Operario de Mantenimiento, Jefetura de Mantenimiento y Gerencia de Producción, con el propósito 
+              de desarrollar un tablero de control donde permita al usuario analizar información proveniente de las  máquinas industriales (Temperatura, vibración, alineamiento y consumo energético) donde 
+              se pueda garantizar la disponibilidad de los equipos, implementar estrategias de mantenimiento preventivo/predictivo y analizar indicadores de producción.   
+            </p>
+            <p>En esta primera etapa del proyecto (FRONTEND) mostraremos dashboard para la jefatura de mantenimiento donde se mostrarán datos estáticos de Disponibilidad de Equipos, 
+              Presupuesto de Mantenimiento, Costos de Mantenimiento y Lista de Equipos Críticos.   
+            </p>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRf4jqwqXkG82Ch48XGbiHzY5_QyPcagUuSZD60GDHWlrRh63qRqY-lrpdixIwb7dYnWxLvP1HJiSon/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <hr>
+            <h4>Usuarios Finales</h4>
+            <div class="row">
+                <div class="col-6">
+                    <h5>Operarios de Mantenimiento</h5>
+                    <p>Actividades relacionados a monitoreo a condición de los equipos, donde podrá analizar vibración, temperatura, alineamiento, etc, desde el panel de control. </p>
+                </div>
+                <div class="col-6">
+                    <img src="./img/operario.jpg" class="d-block w-50" alt="...">
+
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                  <h5>Jefatura de Mantenimiento</h5>
+                  <p>Puede agregar equipos y aplicar e implementar RCM (Mantenimiento Basado en la Confiabilidad) ingresando niveles de criticidad por cada equipos, así mismo programar actividades de mantenimiento preventivo.</p>
+              </div>
+              <div class="col-6">
+                  <img src="./img/jefatura.jpg" class="d-block w-50" alt="...">
+
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+                <h5>Gerencia de Operaciones</h5>
+                <p>Analizar indicadores estratégicos de producción, como mermas, tiempos muertos, consumo energético, costos de cada producto según el impacto del mantenimiento.</p>
+            </div>
+            <div class="col-6">
+                <img src="./img/operaciones.jpg" class="d-block w-50" alt="...">
+
+            </div>
+        </div>
+        </div>
+        <div class="col-md-12 col-xl-2">
+            <h2>Antecedentes</h2>
+            <img src="./img/easymaint.png" class="card-img-top w-50" alt="...">
+            <p>EasyMaint es un  Software de Mantenimiento Industrial, es decir, un Sistema Computarizado para la Administración del Mantenimiento, CMMS  con el cual podrá gestionar la administración del mantenimiento industrial de su empresa.</p>
+            <a class="btn btn-primary" href="https://www.easy-maint.net/es/#:~:text=EasyMaint%20es%20un%20Software%20de,mantenimiento%20industrial%20de%20su%20empresa." role="button" target="_blank">Visitar</a>
+            <hr>
+            <img src="./img/aggity.png" class="card-img-top w-50" alt="...">
+            <p>El software de mantenimiento OPERA MES permite hacer una gestión y un control de todas las intervenciones de mantenimiento realizadas en los activos y en particular en los activos involucrados en el proceso de producción, como máquinas, equipos y herramientas.</p>
+            <a class="btn btn-primary" href="https://aggity.com/plataformas/smart-factory/mes/" role="button" target="_blank">Visitar</a>
+            <hr>
+            <img src="./img/Limble.png" class="card-img-top w-50" alt="...">
+            <p>Limble le permite a cualquier persona que usted autorice enviar un problema a su departamento de mantenimiento simplemente escaneando un código QR (código de barras) o visitando una URL y escribiendo su solicitud a través de sus dispositivos móviles.</p>
+            <a class="btn btn-primary" href="https://limblecmms.com/" role="button" target="_blank">Visitar</a>
+            <hr>
+        </div>
+    </div>
+   <!--Finaliza Descripción del Proyecto Final-->
+   <!--Inicia Descripción del Desarrollo Web-->
+<hr>
+   <div class="row">
+    <div class="col-md-12 col-xl-10">
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_y6ZJcYhu9hzZDe213qQJzPffSMqkcOkv8owV0KZOJl8QUL7rMi_IypBevwyfrt6ZdzDHTR7XmoLN/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    </div>
+    <div class="col-md-12  col-xl-2">
+        <h4>Flujo de Trabajo del Desarrollo Web</h4>
+        <p>En el proyecto se ha realizado el siguiente flujo de trabajo. 
+        </p>
+        <ul>
+          <li>Diseño de la Maqueta en FIGMA</li>
+          <li>Instalación de Librerías (Dependencias)</li>
+          <li>Creación de Mockdata</li>
+          <li>Desarrollo de Componentes para el entorno del Usuario</li>
+          <li>Integrar API Key (token) para UBIDOTS</li>
+          <li>Llevar a producción del Proyecto en Github</li>
+
+        </ul>
+        <h4>Recursos utilizados</h4>
+        <ul>
+          <li>Material UI</li>
+          <li>@Nivo</li>
+          <li>Callendar</li>
+          <li>Formik - YUP</li>
+          <li>UBIDOTS</li>
+        </ul>
+        <a class="btn btn-primary" href="#" Target="_blank" role="button">Descargar Proyecto Final</a>
+    </div>
+  </div>
+<hr>
+<div class="row">
+  <div class="col-md-12  col-xl-6">
+      <h4>Mejoras del Proyecto Frontend</h4>
+      <p>En el Proyecto Frontend considero que hay mejoras por implementar en la experiencia del usuario final como: 
+      </p>
+      <ul>
+        <li>Agregar niveles de más Usuarios considerando la UI/UX</li>
+        <li>Agregar rutas seguras y privadas por niveles de usuario</li>
+        <li>Ingresar Layout interactivo de los procesos industriales</li>
+        <li>Habilitar periféricos como cámaras para poder realizar inspecciones via streaming</li>
+        <li>Desarrollar APIs de los sensores que tendrá cada equipo</li>
+        <li>Desarrollar la descarga de reportes por niveles de usuarios</li>
+
+      </ul>
+  </div>
+</div>
+</div>
+
+
+   <!--Empieza Pie de Página-->
+<p class="PieDePagina">Diseñado por Juan Diego Cerrón Salcedo - Grupo de G-20 del BootCamp FullStack</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
